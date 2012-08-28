@@ -1,0 +1,66 @@
+/*
+ * Copyright (C) 2012 DuckDuckGo, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#ddg_zeroclick.bing {
+   width: 517px;
+}
+
+#ddg_zeroclick_official_links.bing {
+    padding: 5px 0px 5px 1px;
+}
+
+#ddg_zeroclick_official_links.bing img {
+    margin-top: -1px;
+}
+
+.ddg_zeroclick_category.bing {
+    background-position: 2px 2px;
+    border: 1px solid #fafafa;
+}
+
+.ddg_zeroclick_category.bing {
+    background-position: 2px 2px;
+    padding: 0px 0px 0px 26px !important;
+}
+
+.ddg_zeroclick_article.bing {
+    background-position: 2px 2px;
+    padding: 0px 0px 0px 26px !important;
+}
+
+.ddg_zeroclick_more.bing {
+    background-position: 2px 2px;
+    padding: 0px 0px 0px 26px !important;
+    cursor: pointer;
+}
+
+.ddg_zeroclick_category_item.bing {
+    width: 470px;
+}
+
+.disambig_more.bing {
+    width: 434px;
+}
+
+.wrapper.bing {
+    width: 490px !important;
+}
+
+.ddg_more_link.bing {
+    padding-left: 2px;
+}
+
+
