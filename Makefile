@@ -6,7 +6,7 @@ CSS=separated
 clean:
 	rm -rf $(BUILDDIR)
 
-intro:
+init:
 	mkdir -p $(BUILDDIR)
 	mkdir -p $(BUILDDIR)/css
 	mkdir -p $(BUILDDIR)/js
@@ -19,8 +19,10 @@ onefile:
 	cat $(PWD)/css/google.css >> $(BUILDDIR)/css/duckduckbox.css
 	cat $(PWD)/css/bing.css >> $(BUILDDIR)/css/duckduckbox.css
 
-firefox: intro $(CSS)
+firefox: init $(CSS)
 	cp $(PWD)/js/*.* $(BUILDDIR)/js
 	./targets/firefox.sh
+
+
 
 

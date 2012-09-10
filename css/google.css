@@ -14,59 +14,59 @@
  * limitations under the License.
  */
 
-#ddg_zeroclick.google{
+.google #ddg_zeroclick{
    width: 554px;
 }
 
-#ddg_zeroclick_abstract.google > div{
+.google #ddg_zeroclick_abstract > div{
     border: 1px solid #fafafa;
     padding-left: 2px;
 }
 
-.first_category.google {
+.google .first_category {
     margin-top: 3px !important;
 }
 
-#ddg_zeroclick_official_links.google {
+.google #ddg_zeroclick_official_links {
     padding: 5px 0px 5px 0px;
 }
 
-#ddg_zeroclick_official_links.google img {
+.google #ddg_zeroclick_official_links img {
     margin-top: -2px;
 }
 
-.ddg_zeroclick_category.google {
+.google .ddg_zeroclick_category {
     background-position: 2px 4px;
     padding: 1px 0px 1px 36px !important;
 }
 
-.ddg_zeroclick_article.google {
+.google .ddg_zeroclick_article {
     background-position: 2px 4px;
     padding: 1px 0px 1px 36px !important;
 }
 
-.ddg_zeroclick_more.google {
+.google .ddg_zeroclick_more {
     background-position: 2px 4px;
     padding: 1px 0px 1px 36px !important;
 }
 
-.ddg_zeroclick_category_item.google {
+.google .ddg_zeroclick_category_item {
     width: 430px !important;
 }
 
-.disambig_more.google {
+.google .disambig_more {
     width: 474px;
 }
 
-.wrapper.google {
+.google .wrapper {
     width: 530px;
 }
 
-.ddg_more_link.google {
+.google .ddg_more_link {
     padding-left: 12px;
 }
 
-.disambig_more.google a {
+.google .disambig_more a {
     cursor: pointer; 
 }
 
