@@ -16,7 +16,12 @@
 
 %%SETTINGS%%
 
-var ddgBox = new DuckDuckBox('q', [], 'results_container', false);
+var ddgBox = new DuckDuckBox({ 
+                inputName: 'q',
+                hover: false,
+                contentDiv: 'results_container',
+                debug: options.dev
+              });
 
 ddgBox.search = function(query) {
 %%SEARCH%%

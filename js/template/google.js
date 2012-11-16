@@ -16,7 +16,13 @@
 
 %%SETTINGS%%
 
-var ddgBox = new DuckDuckBox('q', ['isr_pps'], 'center_col', true);
+var ddgBox = new DuckDuckBox({ 
+                inputName: 'q',
+                forbiddenIDs: ['isr_pps'],
+                hover: true,
+                contentDiv: 'center_col',
+                debug: options.dev
+              });
 
 ddgBox.search = function(query) {
 %%SEARCH%%

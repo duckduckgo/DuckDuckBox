@@ -37,7 +37,7 @@ var DuckDuckBox = function (options) {
     if (options.contentDiv[0] === '#')
         this.contentDiv = options.contentDiv;
     else
-        this.contentDiv = '#' + contentDiv;
+        this.contentDiv = '#' + options.contentDiv;
 
     if (options.hover) 
         this.hover = options.hover;

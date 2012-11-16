@@ -23,6 +23,11 @@ firefox: init $(CSS)
 	cp $(PWD)/js/*.* $(BUILDDIR)/js
 	./targets/firefox.sh
 
+chrome: init $(CSS)
+	cp $(PWD)/js/*.* $(BUILDDIR)/js
+	./targets/chrome.sh
+
+
 
 
 
