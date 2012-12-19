@@ -14,15 +14,14 @@
  * limitations under the License.
  */
 
-%%SETTINGS%%
-
 var ddgBox = new DuckDuckBox({ 
                 inputName: 'q',
                 forbiddenIDs: ['isr_pps'],
                 hover: true,
-                contentDiv: 'center_col',
-                debug: options.dev
+                contentDiv: 'center_col'
               });
+
+%%SETTINGS%%
 
 ddgBox.search = function(query) {
 %%SEARCH%%

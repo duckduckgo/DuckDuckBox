@@ -14,14 +14,13 @@
  * limitations under the License.
  */
 
-%%SETTINGS%%
-
 var ddgBox = new DuckDuckBox({ 
                 inputName: 'q',
                 hover: false,
-                contentDiv: 'results_container',
-                debug: options.dev
+                contentDiv: 'results_container'
               });
+
+%%SETTINGS%%
 
 ddgBox.search = function(query) {
 %%SEARCH%%

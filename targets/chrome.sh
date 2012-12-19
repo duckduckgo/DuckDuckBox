@@ -5,6 +5,7 @@ var options = {};
 chrome.extension.sendMessage({options: "get"}, function(opt){
     for (var option in opt) {
         options[option] = (opt[option] === 'true') ? true : false; 
+        if (option == 'dev') ddgBox.debug = options[option];
     }
 });
 EOF
